@@ -8,5 +8,6 @@ Feel free to commit new changes in order to make it better.
 <img src="Screenshots/Screenshot_2018-08-24-15-05-39-566_com.dannproductions.instaclone.png" height="500">
 <img src="Screenshots/Screenshot_2018-08-24-15-05-51-276_com.dannproductions.instaclone.png" height="500">
 <img src="Screenshots/Screenshot_2018-08-24-15-06-49-935_com.dannproductions.instaclone.png" height="500">
+<img src="Screenshots/Screenshot_2018-08-24-14-47-33-586_com.dannproductions.instaclone.png" height="500">
   </div>
 
