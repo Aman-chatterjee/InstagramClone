@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Utils.CommentsActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout13"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include layout="@layout/snippet_comments_toolbar"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout14"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout13">
+
+        <ListView
+            android:id="@+id/comment_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:background="@color/white">
+        </ListView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout15"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@color/grey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+       <android.support.constraint.ConstraintLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginTop="0.5dp"
+           android:background="@color/white">
+
+           <com.mikhaellopez.circularimageview.CircularImageView
+               android:id="@+id/comment_profile_image"
+               android:layout_width="40dp"
+               android:layout_height="40dp"
+               android:layout_marginBottom="8dp"
+               android:layout_marginStart="8dp"
+               android:layout_marginTop="8dp"
+               android:padding="5dp"
+               android:src="@android:drawable/ic_input_add"
+               app:layout_constraintBottom_toBottomOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toTopOf="parent" />
+
+           <EditText
+               android:id="@+id/comment"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="8dp"
+               android:layout_marginEnd="8dp"
+               android:layout_marginStart="8dp"
+               android:layout_marginTop="14dp"
+               android:background="@null"
+               android:fontFamily="@font/roboto_light"
+               android:hint="@string/AddComment"
+               android:inputType="textNoSuggestions"
+               android:textColor="@color/black"
+               android:textSize="16sp"
+               app:layout_constraintBottom_toTopOf="@+id/comment_profile_image"
+               app:layout_constraintEnd_toStartOf="@+id/post_comment"
+               app:layout_constraintHorizontal_bias="0.0"
+               app:layout_constraintStart_toEndOf="@+id/comment_profile_image"
+               app:layout_constraintTop_toTopOf="parent"
+               app:layout_constraintVertical_bias="0.0" />
+
+           <TextView
+               android:id="@+id/post_comment"
+               android:layout_width="wrap_content"
+               android:layout_height="0dp"
+               android:layout_marginBottom="8dp"
+               android:layout_marginEnd="8dp"
+               android:layout_marginTop="8dp"
+               android:fontFamily="@font/roboto"
+               android:text="@string/PostComment"
+               android:textColor="@color/green"
+               android:textSize="16sp"
+               app:layout_constraintBottom_toBottomOf="parent"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintTop_toTopOf="parent" />
+
+       </android.support.constraint.ConstraintLayout>
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

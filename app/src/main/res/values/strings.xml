@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">InstaClone</string>
+    <string name="Posts">posts</string>
+    <string name="Followers">followers</string>
+    <string name="Following">following</string>
+    <string name="Follow">Follow</string>
+    <string name="Unfollow">Unfollow</string>
+    <string name="EditProfile">Edit Profile</string>
+    <string name="SettingOptions">Options</string>
+    <string name="SignOut">Sign out</string>
+    <string name="UserName">User name</string>
+    <string name="DisplayName">Display name</string>
+    <string name="Phone">Phone</string>
+    <string name="Email">Email</string>
+    <string name="Website">Website</string>
+    <string name="Description">Description</string>
+    <string name="Password">Password</string>
+    <string name="ConfirmPassword">Confirm password</string>
+    <string name="Login">Login</string>
+    <string name="Register">Register</string>
+    <string name="private_information">PRIVATE INFORMATION</string>
+    <string name="AccountSettings">Account settings</string>
+    <string name="ChangePhoto">Change photo</string>
+    <string name="Gallery">Gallery</string>
+    <string name="Photo">Photo</string>
+    <string name="Video">Video</string>
+    <string name="Next">Next</string>
+    <string name="filePath">mPath</string>
+    <string name="mediaData">media</string>
+    <string name="profilePhoto">ProfilePhoto</string>
+    <string name="Share">Share</string>
+    <string name="speech_prompt">Say something!</string>
+    <string name="Caption">Write a caption</string>
+    <string name="UploadProfilePhoto">UPLOAD_PROFILE</string>
+    <string name="updatingProfile">Updating profile</string>
+    <string name="Comments">Comments</string>
+    <string name="PostComment">Post</string>
+    <string name="AddComment">Add your comment…</string>
+    <string name="Wait">Please wait…</string>
+    <string name="Search">Search…</string>
+
+    <!---Fragment names-->
+    <string name="GalleryFragment">GALLERY</string>
+    <string name="PhotoFragment">PHOTO</string>
+    <string name="VideoFragment">VIDEO</string>
+
+
+    <!---Fire base-->
+    <string name="users_node">users</string>
+    <string name="user_account_settings_node">user_account_settings</string>
+    <string name="user_photos_node">user_photos</string>
+    <string name="user_videos_node">user_videos</string>
+    <string name="videos_node">videos</string>
+    <string name="photos_node">photos</string>
+    <string name="usernameField">username</string>
+    <string name="fieldLikes">likes</string>
+    <string name="fieldComments">comment</string>
+    <string name="fieldComment">comment</string>
+    <string name="dateField">date_added</string>
+    <string name="emailField">email</string>
+    <string name="users_id">user_id</string>
+    <string name="displayNameField">display_name</string>
+    <string name="descriptionField">description</string>
+    <string name="websiteField">website</string>
+    <string name="phoneNoField">phone_number</string>
+    <string name="profilePhotoField">profile_photo</string>
+    <string name="node_followers">followers</string>
+    <string name="node_following">following</string>
+
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:title=""
+        android:icon="@drawable/ic_action_home"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/search"
+        android:title=""
+        android:icon="@drawable/ic_option_search"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/share"
+        android:title=""
+        android:icon="@drawable/ic_option_share"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/like"
+        android:title=""
+        android:icon="@drawable/ic_menu_like"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/profile"
+        android:title=""
+        android:icon="@drawable/ic_option_profile"
+        app:showAsAction="ifRoom">
+    </item>
+
+</menu>
