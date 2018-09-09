@@ -45,11 +45,6 @@ public class LoginActivity extends AppCompatActivity {
         loginButton = (Button)findViewById(R.id.login_button);
         mProgressbar.setVisibility(View.GONE);
 
-                try {
-            FirebaseDatabase.getInstance().setPersistenceEnabled(true);
-        }catch (RuntimeException e){
-            e.printStackTrace();
-        }
 
         firebaseLogin();
 
